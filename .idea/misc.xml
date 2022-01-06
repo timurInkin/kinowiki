@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/drawable/ic_back_24.xml" value="0.35555555555555557" />
-        <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/film_detail_screen.xml" value="0.3875" />
+        <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/film_detail_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/item_film.xml" value="0.33" />
         <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/main_activity.xml" value="0.21927083333333333" />
-        <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/top_films_screen.xml" value="0.3875" />
+        <entry key="..\:/Users/Sel/AndroidStudioProjects/kinowiki/app/src/main/res/layout/top_films_screen.xml" value="0.18" />
       </map>
     </option>
   </component>

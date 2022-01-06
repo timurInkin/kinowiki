@@ -4,7 +4,9 @@ import android.os.Bundle
 import com.example.kinowiki.R
 import com.example.kinowiki.presentation.common.BaseActivity
 import com.example.kinowiki.presentation.topFilms.TopFilmsFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : BaseActivity() {
 
 

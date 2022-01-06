@@ -4,34 +4,34 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/top_film_count"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/top_film_list"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/top_film_progress"
         android:layout_width="wrap_content"
-        android:text="0"
-        android:textSize="24sp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
-        />
-    <Button
-        android:id="@+id/top_film_show_detail"
+    <TextView
+        android:id="@+id/top_film_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detail"
-        app:layout_constraintBottom_toTopOf="@id/top_film_add"
+        android:layout_marginHorizontal="10dp"
+        android:text="ошибка запроса"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
-    <Button
-        android:id="@+id/top_film_add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

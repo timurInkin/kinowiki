@@ -16,6 +16,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+    <ImageView
+        android:id="@+id/film_detail_img"
+        android:padding="16dp"
+        android:layout_width= "match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/film_detail_back"
+        app:layout_constraintCircleRadius="64dp"
+        />
     <TextView
         android:id="@+id/film_detail_name"
         android:layout_width="0dp"
@@ -26,7 +35,7 @@
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/film_detail_back"/>
+        app:layout_constraintTop_toBottomOf="@id/film_detail_img"/>
 
     <TextView
         android:id="@+id/film_detail_year"
